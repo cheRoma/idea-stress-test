@@ -64,3 +64,7 @@ PRs welcome — this is meant to be improved by the community. Good areas: more 
 ## License
 
 MIT. Free forever. Go kill some bad ideas early.
+
+---
+
+<sub>Разработка — [Ostov ↗](https://ostov.dev/?utm_source=github&utm_medium=readme&utm_campaign=signature&utm_content=idea-stress-test)</sub>

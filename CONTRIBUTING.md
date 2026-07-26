@@ -30,11 +30,25 @@ There's no build step — it's prompt + reference files. To test a change:
    - **Tone & flow:** does it push back honestly, walk the phases in order, and end with a clear GO / TEST-FIRST / NO-GO verdict and the report template?
 4. Try a weak idea and a plausible one — the skill should comfortably say NO-GO when warranted and not over-award GO.
 
+## Documentation is bilingual
+
+The project ships two READMEs of equal standing: [`README.md`](README.md) in English and
+[`README.ru.md`](README.ru.md) in Russian. They are not a source and a translation — both are
+maintained, and a reader arriving in either language should get the whole picture without
+switching.
+
+If your PR changes anything user-facing (a phase, the verdict set, install steps, privacy
+posture), update both. If you're comfortable in only one language, change that one and say so
+in the PR description — a maintainer will carry it across rather than let the pair drift.
+
+Behaviour changes also belong in [`CHANGELOG.md`](CHANGELOG.md) under `## [Unreleased]`.
+
 ## Pull request checklist
 
 - Keep the adversarial, truth-seeking tone.
 - Keep the report template and verdict format intact unless the PR is specifically about them.
 - Don't add telemetry that sends idea content — see `references/telemetry.md` (opt-in, off by default, never the idea itself).
+- Update both READMEs for user-facing changes, and add a `CHANGELOG.md` entry for behaviour changes.
 - Explain in the PR description what idea(s) you tested the change against.
 
 By contributing, you agree your work is licensed under the project's [MIT License](LICENSE).

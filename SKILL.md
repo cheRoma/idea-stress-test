@@ -24,7 +24,13 @@ Never skip Phase 2 (who pays) and Phase 3 (what's free already) in the full run 
 
 ## The process
 
-Walk the idea through these phases **in order**. Ask, don't assume. One focused question at a time where possible; do not interrogate with 15 questions at once. Where the user can't answer, that gap IS a finding — note it.
+Walk the idea through these phases **in order**. One focused question at a time; several at once is bewildering and yields shallow answers. Where the user can't answer, that gap IS a finding — note it.
+
+Two rules govern every question you ask:
+
+**Look facts up — ask only for decisions.** If something is discoverable from the environment (filesystem, codebase, git history, a competitor's pricing page, a search tool), go find it rather than making the user recite it. What you dug up yourself is more reliable than what they recalled, and their time is the scarce resource. Judgement calls, priorities, appetite, and anything about their own situation are theirs alone — put those to them and wait.
+
+**Never ask a bare question — attach your recommended answer and the reason.** "Who pays for this?" forces the user to write an essay. "I'd guess the payer is the ops manager, not the end user, because they hold the budget — right?" lets them nod or correct you, and the correction carries more information than a blank-page answer. Do this even when unsure: flag the low confidence, then still commit to a guess. Being wrong out loud surfaces disagreement faster than being vague.
 
 ### Phase 1 — Reframe the idea (challenge the framing)
 

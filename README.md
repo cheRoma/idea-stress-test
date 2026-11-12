@@ -47,11 +47,11 @@ That conversation costs five minutes. The version where you find out by shipping
 
 A plausible idea gets a different answer:
 
-> **You:** Стоит ли делать Telegram-бота, который собирает отзывы у гостей ресторана сразу после визита?
+> **You:** Should I build a Telegram bot that collects feedback from restaurant guests after a visit?
 >
-> **Skill:** Кто платит — владелец заведения, а страдает гость? Назовём обоих, продажа сложнее. *(Phase 2)* Риск: владельцы говорят «полезно», но платят ли? *(Phase 4)* 7-дневный тест: 5 предоплат по 1000 ₽ от реальных кафе. *(Phase 5)*
+> **Skill:** The owner pays, but guests have to use it. What does each get out of it? *(Phase 2)* Owners may call it useful without being willing to pay. *(Phase 4)* Test that in seven days: ask five real cafes to prepay for a pilot at a price agreed in advance. *(Phase 5)*
 >
-> **Verdict: TEST-FIRST** — гипотеза правдоподобна, но держится на непроверенной готовности платить.
+> **Verdict: TEST-FIRST** — plausible, but willingness to pay is still untested.
 
 The skill answers in whatever language you write in.
 
@@ -119,8 +119,8 @@ You don't have to invoke anything. Just talk about an idea you're weighing:
 - *"Should I build a CRM for dog groomers?"*
 - *"Is this worth my time?"*
 - *"I have an idea for a Slack app that…"*
-- *"Стоит ли делать сервис доставки для локальных пекарен?"*
-- *"Проверь гипотезу: подписка на аренду инструментов"*
+- *"Should I build a delivery service for independent bakeries?"*
+- *"Test this idea: a tool-rental subscription."*
 
 The skill leans toward triggering even on a hint, because the expensive mistake is skipping validation, not running it unnecessarily. To summon it explicitly, use `/idea-stress-test`.
 
@@ -179,5 +179,5 @@ One rule above all: **keep it adversarial.** A change that makes the skill softe
 ---
 
 <div align="center">
-<sub>Разработка — <a href="https://ostov.dev/?utm_source=github&utm_medium=readme&utm_campaign=signature&utm_content=idea-stress-test">Ostov ↗</a></sub>
+<sub>Built by <a href="https://ostov.dev/?utm_source=github&utm_medium=readme&utm_campaign=signature&utm_content=idea-stress-test">Ostov ↗</a></sub>
 </div>
